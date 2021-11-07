@@ -1,7 +1,7 @@
 <template>
 	<div class="container mt-2">
-		<div v-if="!loading" class="mb-3 m-auto">
-		  <img :src="ad.imageSrc" class="m-auto w-75">
+		<div v-if="!loading" class="mb-3 m-auto" style="width: 85%;">
+		  <img :src="ad.imageSrc" class="m-auto w-100">
 		  <div class="card-body">
 			<h4><b>{{ ad.title }}</b></h4>
 		    <p class="card-text">{{ ad.description }}</p>
